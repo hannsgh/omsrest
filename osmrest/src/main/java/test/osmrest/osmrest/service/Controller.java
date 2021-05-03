@@ -29,7 +29,7 @@ import static test.osmrest.osmrest.transformers.JsonArrayToJsonOfUrl.JSON_URL;
 public class Controller {
     public static final Logger logger = LoggerFactory.getLogger (Controller.class);
 
-    @GetMapping("test/{name}")
+    @GetMapping("region/{name}")
     @Cacheable("getGeoInfo")
     ResponseEntity
     getGeoInfo(@PathVariable String name) throws IOException {

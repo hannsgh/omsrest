@@ -1,5 +1,5 @@
 
-package test.osmrest.osmrest.model;
+package test.osmrest.osmrest.client.model;
 
 import java.io.Serializable;
 import java.util.List;
